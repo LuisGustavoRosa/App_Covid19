@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="title_home" translatable="false">Start</string>
+    <string name="mundo" translatable="false">World</string>
+    <string name="paises" translatable="false">Countries</string>
+    <string name="search_hint" translatable="false">Search for a country:</string>
+    <string name="app_label" translatable="false">Search country</string>
+    <string name="casos" translatable="false">Cases</string>
+    <string name="confirmados" translatable="false">Confirmed</string>
+    <string name="mortes" translatable="false">Deaths</string>
+    <string name="curados" translatable="false">Recovered</string>
+    <string name="suspeitos" translatable="false">Suspects</string>
+    <string name="descartados" translatable="false">Refuses</string>
+    <string name="selecao" translatable="false">Select Country:</string>
+    <string name="selecao1" translatable="false">Select State:</string>
+</resources>

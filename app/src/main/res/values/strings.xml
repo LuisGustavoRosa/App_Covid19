@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Covid-19</string>
+    <string name="title_home">Início</string>
+    <string name="mundo">Mundo</string>
+    <string name="paises">Países</string>
+    <string name="estados" translatable="false">Estados \n Brasileiros</string>
+    <string name="search_hint">Procurar um País:</string>
+    <string name="app_label">procurar pais</string>
+    <string name="casos">Casos</string>
+    <string name="confirmados">Confirmados</string>
+    <string name="mortes">Óbitos</string>
+    <string name="curados">Casos Curados</string>
+    <string name="suspeitos">Suspeitos</string>
+    <string name="descartados">Descartados</string>
+    <string name="selecao" translatable="false">Selecione o País:</string>
+    <string name="selecao1" translatable="false">Selecione o Estado:</string>
+    <string name="estatisticas_mundiais" translatable="false">Estatistícas \n Mundiais:</string>
+    <string name="home" translatable="false">Home</string>
+</resources>

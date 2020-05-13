@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37376f</color>
+    <color name="colorPrimaryDark">#222243</color>
+    <color name="colorAccent">#e2c044</color>
+    <color name="azulEspacial">#37376f</color>
+    <color name="background">#393d3f</color>
+    <color name="trigo">#e1ca96</color>
+    <color name="cultivado">#f6f4f3</color>
+    <color name="milho">#e2c044</color>
+    //https://coolors.co/28283f-393d3f-37376f-e1ca96-f6f4f3-e2c044
+</resources>
