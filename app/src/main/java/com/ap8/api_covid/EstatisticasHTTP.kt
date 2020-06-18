@@ -88,12 +88,14 @@ object EstatisticasHTTP {
     fun getJsonPaises(json: JSONObject): Estatisticas {
         val date_ = formatarData(json.getString("updated_at").substring(0,10))
         val hour_ = json.getString("updated_at").substring(11, 16)
+
+
         val estatisticas = Estatisticas(
             country = json.getString("country"),
-            cases = json.getInt("cases"),
-            confirmed = json.getInt("confirmed"),
-            deaths = json.getInt("deaths"),
-            recovered = json.getInt("recovered"),
+            cases = json.optInt("cases",0),
+            confirmed = json.optInt("confirmed",0),
+            deaths = json.optInt("deaths",0),
+            recovered = json.optInt("recovered",0),
             date = date_,
             hour = hour_,
             uf = null,
@@ -101,6 +103,8 @@ object EstatisticasHTTP {
             refuses = 0,
             suspects = 0
         )
+
+
         return estatisticas
     }
 
@@ -110,10 +114,10 @@ object EstatisticasHTTP {
         val estatisticas = Estatisticas(
             uf = json.getString("uf"),
             state = json.getString("state"),
-            cases = json.getInt("cases"),
-            deaths = json.getInt("deaths"),
-            suspects = json.getInt("suspects"),
-            refuses = json.getInt("refuses"),
+            cases = json.optInt("cases",0),
+            deaths = json.optInt("deaths",0),
+            suspects = json.optInt("suspects",0),
+            refuses = json.optInt("refuses",0),
             date = date_,
             hour = hour_,
             country = null,
